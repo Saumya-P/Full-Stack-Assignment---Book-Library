@@ -1,0 +1,59 @@
+/* Home.css */
+
+/* Main container for the Home component */
+.home-container {
+  padding: 20px;
+}
+
+/* Style for the toggle buttons (Table/Card view) */
+.view-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.view-toggle-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e0f7fa; /* Light sky blue background */
+  border: 2px solid #38bdf8; /* Sky blue border */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-toggle-button.active {
+  background-color: #0284c7; /* Darker sky blue background */
+  color: white;
+}
+
+.view-toggle-button:hover {
+  background-color: #0284c7;
+  color: white;
+}
+
+/* Header with page title and add book icon */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.add-book-icon {
+  font-size: 2.5rem;
+  color: #0284c7; /* Sky blue color */
+  cursor: pointer;
+}
+
+.add-book-icon:hover {
+  color: #0369a1; /* Darker shade of blue */
+}

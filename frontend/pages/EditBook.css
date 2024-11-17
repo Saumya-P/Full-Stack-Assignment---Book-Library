@@ -1,0 +1,88 @@
+/* EditBook.css */
+
+/* Container for the entire page */
+.edit-book-container {
+  padding: 20px;
+}
+
+/* Title of the page */
+.edit-book-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form container */
+.edit-book-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #38bdf8; /* Sky-blue color */
+  border-radius: 16px;
+  padding: 24px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Form input container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.form-label {
+  font-size: 1.1rem;
+  color: #4b5563; /* Gray */
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Input fields styling */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #d1d5db; /* Light Gray */
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #38bdf8; /* Sky-blue */
+  outline: none;
+}
+
+/* Save button styling */
+.save-button {
+  background-color: #38bdf8; /* Sky-blue */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #0ea5e9; /* Darker sky-blue */
+}
+
+/* Spinner container */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Back Button styling (if needed) */
+.back-button {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #38bdf8; /* Sky-blue */
+  cursor: pointer;
+}

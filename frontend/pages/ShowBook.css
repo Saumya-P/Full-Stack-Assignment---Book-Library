@@ -1,0 +1,48 @@
+/* ShowBook.css */
+
+/* Main container for the ShowBook component */
+.show-book-container {
+  padding: 20px;
+}
+
+/* Title of the page */
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Container for the book details */
+.book-details {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #38bdf8;  /* Sky blue border */
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f1f5f9; /* Light background */
+}
+
+/* Individual book information row */
+.book-info {
+  display: flex;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #4b5563;  /* Dark gray for labels */
+  margin-right: 10px;
+}
+
+.book-info span {
+  color: #111827;  /* Dark text for the values */
+}
+
+/* Adjusting styles for the time display */
+.book-info span:last-child {
+  font-style: italic;
+  color: #6b7280;  /* Light gray for timestamps */
+}

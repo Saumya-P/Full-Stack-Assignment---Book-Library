@@ -1,0 +1,78 @@
+/* BooksTable.css */
+
+/* Container for the table */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+/* General table styles */
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.books-table th, .books-table td {
+  padding: 12px 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.books-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Styling for rows */
+.books-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.books-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive: Hide Author and Year columns on small screens */
+.author-column,
+.year-column {
+  display: table-cell;
+}
+
+@media (max-width: 768px) {
+  .author-column,
+  .year-column {
+    display: none;
+  }
+}
+
+/* Operations icons */
+.operations {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.operation-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.operation-icon:hover {
+  transform: scale(1.1);
+}
+
+.operation-icon.info {
+  color: #2d6a4f;
+}
+
+.operation-icon.edit {
+  color: #ffbb33;
+}
+
+.operation-icon.delete {
+  color: #d9534f;
+}
